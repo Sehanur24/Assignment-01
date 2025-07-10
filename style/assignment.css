@@ -4,7 +4,10 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+body {
+  background-color: #f5f8ff;
+  color: #fff;
+}
 img {
   max-width: 100%;
   display: block;
@@ -56,4 +59,29 @@ img {
   font-size: 3rem;
   margin-bottom: 20px;
   color: black;
+}
+/* ========== Action Section ========== */
+.action {
+  display: flex;
+  padding: 60px;
+  gap: 40px;
+  align-items: center;
+  background-color: white;
+}
+.action-left {
+  flex: 1;
+}
+.action-left h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: black;
+}
+.action-left p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  color: #ccc;
+}
+.action-right img {
+  flex: 1;
+  border-radius: 40px;
 }
